@@ -698,9 +698,9 @@ function renderCaptureHTML(data) {
                         return `<div class="ss-item">${s}</div>`;
                     }).join('');
                 })()}
-            </div>
-            <div class="contact-info" style="margin-top: 10px; text-align: right; margin-right: 40px; font-size: 17px; color: #1a1a1a; font-weight: 700; font-style: italic;">
-                <span style="color: #c41e3a;">Kha Nguyễn</span> 0396695257 (ZaLo)
+                <div class="contact-info" style="grid-column: 3 / 5; text-align: right; align-self: end; padding-bottom: 5px; font-size: 17px; color: #1a1a1a; font-weight: 700; font-style: italic;">
+                    <span style="color: #c41e3a;">Kha Nguyễn</span> 0396695257 (ZaLo)
+                </div>
             </div>
         </div>
     `;
