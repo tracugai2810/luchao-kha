@@ -699,7 +699,7 @@ function renderCaptureHTML(data) {
                     }).join('');
                 })()}
                 <div class="contact-info" style="grid-column: 3 / 5; text-align: right; align-self: end; padding-bottom: 5px; font-size: 17px; color: #1a1a1a; font-weight: 700; font-style: italic;">
-                    <span style="color: #c41e3a;">Kha Nguyễn</span> 0396695257 (ZaLo)
+                    <span style="color: #c41e3a;">Kha Nguyễn</span> 039.669.5257 (ZALO)
                 </div>
             </div>
         </div>
