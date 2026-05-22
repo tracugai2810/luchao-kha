@@ -701,8 +701,8 @@ function renderCaptureHTML(data) {
             </div>
         </div>
         
-        <div class="contact-info" style="margin-top: 15px; text-align: right; font-size: 16px; color: #555; font-style: italic;">
-            <span style="color: #c41e3a; font-weight: bold;">Kha Nguyễn</span> 0396695257 (ZaLo)
+        <div class="contact-info" style="margin-top: 15px; text-align: right; font-size: 17px; color: #1a1a1a; font-weight: 700; font-style: italic;">
+            <span style="color: #c41e3a;">Kha Nguyễn</span> 0396695257 (ZaLo)
         </div>
     `;
 }
