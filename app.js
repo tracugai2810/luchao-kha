@@ -676,12 +676,7 @@ function renderCaptureHTML(data) {
         </table>
         
         <div class="shensha-section">
-            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; padding-right: 20px;">
-                <div class="shensha-title" style="margin-bottom: 0;">Thần Sát</div>
-                <div class="contact-info" style="font-size: 17px; color: #1a1a1a; font-weight: 700; font-style: italic;">
-                    <span style="color: #c41e3a;">Kha Nguyễn</span> 0396695257 (ZaLo)
-                </div>
-            </div>
+            <div class="shensha-title">Thần Sát</div>
             <div class="shensha-grid">
                 ${(() => {
                     const movingBranches = data.linesData.filter(l => l.isMoving).flatMap(l => [l.chi, l.changed.branch]);
@@ -703,6 +698,9 @@ function renderCaptureHTML(data) {
                         return `<div class="ss-item">${s}</div>`;
                     }).join('');
                 })()}
+            </div>
+            <div class="contact-info" style="margin-top: 10px; text-align: right; margin-right: 40px; font-size: 17px; color: #1a1a1a; font-weight: 700; font-style: italic;">
+                <span style="color: #c41e3a;">Kha Nguyễn</span> 0396695257 (ZaLo)
             </div>
         </div>
     `;
